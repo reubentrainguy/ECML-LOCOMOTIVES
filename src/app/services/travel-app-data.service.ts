@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { ArticlesSource3Type } from '../models/travel-app-data/articles-source3-type';
-import { ImageSet1Type } from '../models/travel-app-data/image-set1-type';
 import { ArticlesSource4Type } from '../models/travel-app-data/articles-source4-type';
+import { ImageSet2Type } from '../models/travel-app-data/image-set2-type';
+import { SelectedArticlesType } from '../models/travel-app-data/selected-articles-type';
+import { ArticlesSource2Type } from '../models/travel-app-data/articles-source2-type';
+import { ArticlesSource3Type } from '../models/travel-app-data/articles-source3-type';
 import { ArticlesSource1Type } from '../models/travel-app-data/articles-source1-type';
 import { DestinationsType } from '../models/travel-app-data/destinations-type';
-import { ImageSet2Type } from '../models/travel-app-data/image-set2-type';
-import { ArticlesSource2Type } from '../models/travel-app-data/articles-source2-type';
-import { SelectedArticlesType } from '../models/travel-app-data/selected-articles-type';
+import { ImageSet1Type } from '../models/travel-app-data/image-set1-type';
 import { TravelAppData } from '../static-data/travel-app-data';
 
 @Injectable({

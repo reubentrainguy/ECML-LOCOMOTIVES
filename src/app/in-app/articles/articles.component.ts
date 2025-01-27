@@ -1,11 +1,11 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { IGX_CARD_DIRECTIVES, IgxButtonDirective, IgxIconButtonDirective, IgxIconComponent, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective } from 'igniteui-angular';
 import { Subject, takeUntil } from 'rxjs';
-import { ArticlesSource3Type } from '../../models/travel-app-data/articles-source3-type';
 import { ArticlesSource4Type } from '../../models/travel-app-data/articles-source4-type';
-import { ArticlesSource1Type } from '../../models/travel-app-data/articles-source1-type';
-import { ArticlesSource2Type } from '../../models/travel-app-data/articles-source2-type';
 import { SelectedArticlesType } from '../../models/travel-app-data/selected-articles-type';
+import { ArticlesSource2Type } from '../../models/travel-app-data/articles-source2-type';
+import { ArticlesSource3Type } from '../../models/travel-app-data/articles-source3-type';
+import { ArticlesSource1Type } from '../../models/travel-app-data/articles-source1-type';
 import { TravelAppDataService } from '../../services/travel-app-data.service';
 
 @Component({
