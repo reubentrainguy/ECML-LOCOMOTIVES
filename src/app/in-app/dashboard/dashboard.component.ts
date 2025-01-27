@@ -2,10 +2,10 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { IGX_CARD_DIRECTIVES, IGX_LIST_DIRECTIVES, IgxButtonDirective, IgxIconButtonDirective, IgxIconComponent, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective } from 'igniteui-angular';
 import { Subject, takeUntil } from 'rxjs';
-import { ImageSet1Type } from '../../models/travel-app-data/image-set1-type';
-import { DestinationsType } from '../../models/travel-app-data/destinations-type';
 import { ImageSet2Type } from '../../models/travel-app-data/image-set2-type';
 import { SelectedArticlesType } from '../../models/travel-app-data/selected-articles-type';
+import { DestinationsType } from '../../models/travel-app-data/destinations-type';
+import { ImageSet1Type } from '../../models/travel-app-data/image-set1-type';
 import { TravelAppDataService } from '../../services/travel-app-data.service';
 
 @Component({
